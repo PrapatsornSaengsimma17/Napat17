@@ -9,7 +9,7 @@ body {
 
 header {
     background: #F8F4E1;
-    color: 362312;
+    color: #362312;
     padding: 20px 0;
     text-align: center;
 }
@@ -32,14 +32,18 @@ section {
 }
 
 h2 {
-   color: #A79277;
+    color: #362312;
+    background-color: #F8F4E1;
+    padding: 10px 15px;
+    border-radius: 4px;
+    display: inline-block;
 }
 
 .project {
   margin-bottom: 20px;
 }
 
-.project {
+.project h3 {
   margin: 0 0 10px;
   color: #A79277;
 }
@@ -50,9 +54,9 @@ ul {
 }
 
 footer {
-  text-allign: center;
+  text-align: center;
   padding: 10px 0;
-  background: 3B270C
+  background: #3B270C;
   color: white;
   margin-top: 20px;
 }
