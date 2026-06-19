@@ -18,7 +18,16 @@
     <section id="about">
         <h2>เกี่ยวกับฉัน</h2>
         
-        <img src="77.jpg" alt="รูปภาพ">
+        <div style="text-align: center;">
+    <img src="77.jpg" alt="รูปภาพ" 
+         style="width: 150px; /* ขนาดวงกลม */
+                height: 150px; /* ต้องเท่ากับความกว้าง */
+                border-radius: 50%; /* ทำให้ขอบมนจนกลายเป็นวงกลม */
+                object-fit: cover; /* แถม: กันรูปยืดเบี้ยว ถ้าต้นฉบับไม่ใช่สี่เหลี่ยมจัตุรัส */
+                display: block;
+                margin: auto;
+                ">
+        </div>
         
         <p>ฉันเป็นนักเรียนชั้นมัธยมศึกษาปีที่ 6</p>
     </section>
