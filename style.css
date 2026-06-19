@@ -8,7 +8,7 @@ body {
 }
 
 header {
-    background: #F8F4E1;
+    background: #F362312;
     color: 362312;
     padding: 20px 0;
     text-align: center;
@@ -32,7 +32,7 @@ section {
 }
 
 h2 {
-   color: #F8F4E1;
+   color: #A79277;
 }
 
 .project {
@@ -41,7 +41,7 @@ h2 {
 
 .project {
   margin: 0 0 10px;
-  color: #362312;
+  color: #A79277;
 }
 
 ul {
