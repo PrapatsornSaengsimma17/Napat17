@@ -31,6 +31,7 @@ section {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
+/* หัวข้อใหญ่ (เกี่ยวกับฉัน, ผลงาน, ทักษะ) */
 h2 {
     color: #362312;
     background-color: #F8F4E1;
@@ -40,23 +41,24 @@ h2 {
 }
 
 .project {
-  margin-bottom: 20px;
+    margin-bottom: 20px;
 }
 
+/* หัวข้อย่อย (ชื่อผลงานต่างๆ) เปลี่ยนเป็น #362312 แล้ว */
 .project h3 {
-  margin: 0 0 10px;
-  color: #362312;
+    margin: 0 0 10px;
+    color: #362312;
 }
 
 ul {
-  list-style-type: square;
-  padding-left: 20px;
+    list-style-type: square;
+    padding-left: 20px;
 }
 
 footer {
-  text-align: center;
-  padding: 10px 0;
-  background: #3B270C;
-  color: white;
-  margin-top: 20px;
+    text-align: center;
+    padding: 10px 0;
+    background: #3B270C;
+    color: white;
+    margin-top: 20px;
 }
